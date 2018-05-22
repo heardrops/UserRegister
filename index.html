@@ -1,0 +1,107 @@
+<!-- sublime热键和编译环境设置 http://www.jb51.net/softjc/180873.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>关于js</title>
+		<link rel="stylesheet" type="text/css" href="./resource/css/base.css">
+		<link rel="stylesheet" type="text/css" href="./resource/css/index.css">
+		<script src="./resource/js/util/util.js"></script>
+	</head>
+
+	<body>
+		<div class="divBox" id="divBox">1</div>
+		<table id="tblUserInfo">
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblHead" colspan="2">用户注册</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor" colspan="2">
+					请认真填写注册信息，其中
+					<label class="colorRed">*</label>
+					的项目为必填内容</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft">
+					姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<input id="id" type="text" name="name" size="35">
+						<label class="colorRed">*</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft">
+					姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<input id="rdoSexMale" type="radio" checked="checked" name="sex" value="male">
+						<label for="rdoSexMale">男&nbsp;&nbsp;&nbsp;</label>
+					<input id="rdoSexFemale" type="radio" name="sex" value="female">
+						<label for="rdoSexFemale">女</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft" >
+					密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<input id="psw" type="password" name="psw" size="35">
+						<label class="colorRed">*</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft" >
+					确认密码</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<input id="pswSure" type="password" name="psw" size="35">
+						<label class="colorRed">*</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft" >
+					爱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<input id="ckbHobbySwimming" type="checkbox" 
+							name="ckbHobby" value="swimming" autocomplete="off">
+						<label id="lblSwimming" for="ckbHobbySwimming">游泳</label>
+					<input id="ckbHobbySleep" type="checkbox" 
+							name="ckbHobby" value="sleep" autocomplete="off">
+						<label id="lblSwimming" for="ckbHobbySleep">睡觉</label>
+					<input id="ckbHobbyCodding" type="checkbox" 
+							name="ckbHobby" value="sleep" autocomplete="off">
+						<label id="lblSwimming" for="ckbHobbyCodding">撸代码</label><br>
+					<input id="btnHobbySelectedAll" type="button" value="全选">
+					<input id="btnHobbySelectedRevange" type="button" value="反选">
+					<input id="btnHobbySelectedClear" type="button" value="清空">
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft" >
+					出生日期</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<select id="slcBirthdayYear" name="birthdayYear">
+					</select> 年 
+					<select id="slcBirthdayMonth" name="birthdayMonth">
+					</select> 月 
+					<select id="slcBirthdayDate" name="birthdayMonthDate">
+					</select> 日&nbsp;&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdLeft" >
+					自我介绍</td>
+				<td class="tblUserInfoTdBkcolor tblUserInfoTdRight">
+					<textarea id="tatIntroduce" name="tatIntroduce" rows="8" cols="27">
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="tblUserInfoTdBkcolor" colspan="2">
+					<input type="button" name="ok" value="确定">
+					<input id="stop" type="button" name="stop" value="停止">
+					<input type="button" name="reset" value="重置">
+				</td>
+			</tr>
+		</table>
+	</body>
+
+	<script src="./resource/js/index/index.js"></script>
+</html>

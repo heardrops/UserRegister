@@ -1,0 +1,64 @@
+/**
+ * index.css，应用于index.html
+ */
+#tblUserInfo {
+	width:22.5em;
+	height:2em;
+	margin: 3em auto;
+}
+
+.tblUserInfoTdBkcolor {
+	text-align: center;
+	padding: 4px 0.5em;
+	background: #7EC1FC;
+}
+
+.tblUserInfoTdLeft {
+	width:4em;
+}
+
+.tblUserInfoTdRight {
+	height:1em;
+	line-height: 1em;
+}
+
+.divBox {
+	width: 50px;
+	height: 50px; 
+	margin:20px 0px 0px 20px;
+	border:1px solid black;
+	border-radius: 10px;
+	background: pink;
+	text-align:center;
+	transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+    animation: divBox 6s linear infinite;
+}
+
+.divBox:hover {
+	transform: rotate(360deg) scale(1.2);
+    -webkit-transform: rotate(360deg) scale(1.2);
+    -moz-transform: rotate(360deg) scale(1.2);
+    -o-transform: rotate(360deg) scale(1.2);
+    -ms-transform: rotate(360deg) scale(1.2);
+}
+
+@keyframes divBox {
+    0% {
+           transform:rotate(0deg);
+     }
+     100% {
+           transform:rotate(360deg);
+     }
+}
+
+.tblHead {
+	font-family: 楷体;
+	font-size: 24px;
+	font-weight: 900;
+	text-align: center;
+	padding: 0.208em 0;
+	letter-spacing: -0.084em;
+}
